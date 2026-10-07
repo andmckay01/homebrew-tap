@@ -1,36 +1,36 @@
 class AutoAscii < Formula
   desc "Realtime ASCII-art video in your terminal"
   homepage "https://github.com/andmckay01/auto-ascii"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/andmckay01/auto-ascii/releases/download/v0.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "9e4592a3c0b18a729fbcadc1fbb30746fbed56408657be6ecbd169a1c4492b05"
-    sha256 cellar: :any_skip_relocation, big_sur:       "8198bd2e6cbd9ff5612eeba4abeceb3f87b9af42c1b4a04f893971850589ce6a"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "8ae72552e2dd715970562414b03bbcac2b2f253e8ce5c6f8528c0d82bee84665"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "6b4ad0a2e169f311ba0730121b04427b9b53df27c34973ee7f5aedcac2568894"
+    root_url "https://github.com/andmckay01/auto-ascii/releases/download/v0.4.0"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "a8c727c93586c049173a66e05166a458523229d1bc982369b8a05fbb35281f09"
+    sha256 cellar: :any_skip_relocation, big_sur:       "15fc93549b311ae118c8e9290d44f349a6d1d880934f0186651bdd89a3a9b8c3"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "c86d620b284738ac0211ce4da75588bfb98cea5822d55de11d9e0f758d7a5ab4"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "ec04fd8ed0bf1f311ac38e69c987da9ac95dcb6ed6c753c02d4bd39fc4ee06a6"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.3.0/auto-ascii-aarch64-apple-darwin.tar.gz"
-      sha256 "6dfd9eacf5da69349d431e586427adf12d094da90243e87d988fca97a4703abf"
+      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.4.0/auto-ascii-aarch64-apple-darwin.tar.gz"
+      sha256 "3b9abf7847ef8b864fbc4e200e3aa9046ba14342a8c01427c82c5c31fc0bee77"
     end
     on_intel do
-      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.3.0/auto-ascii-x86_64-apple-darwin.tar.gz"
-      sha256 "8ae38b006e0f6feb49421f7c668bcaa6315496f1681fe14722edb7851de479ec"
+      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.4.0/auto-ascii-x86_64-apple-darwin.tar.gz"
+      sha256 "57f9d2ea040e4d1c78c039823b82277a6818aad48b11e6b307339599cced7066"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.3.0/auto-ascii-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "88f3d754274421765114d1f7ecd38358dde710b5911c43edf85d14705e2cf1b0"
+      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.4.0/auto-ascii-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "33053cf3c0a4621256e690dd00482ae7fa2c210eef69d617e627fe7695520b81"
     end
     on_intel do
-      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.3.0/auto-ascii-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f3bdfb1fb8ada854427ad23edd67f83df0748193978ee0321fdcbf2cd26cafe1"
+      url "https://github.com/andmckay01/auto-ascii/releases/download/v0.4.0/auto-ascii-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "18d0397f4247266cd5ca2ca14148c7d369d8e4d5d7e628ef27a88001d1711fa0"
     end
   end
 
